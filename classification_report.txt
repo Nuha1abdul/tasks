@@ -1,18 +1,1 @@
 
-
-Naive bayes
-
-Accuracy: 0.869
-Classification Report:
-              precision    recall  f1-score   support
-
-           0       0.98      0.88      0.92     18292
-           1       0.37      0.79      0.51      1708
-
-    accuracy                           0.87     20000
-   macro avg       0.68      0.83      0.72     20000
-weighted avg       0.93      0.87      0.89     20000
-Category 0 refers to patients who are not diabetic, and Category 1 refers to patients who are diabetic.
-
-	•	Category 0 (Non-diabetic patients): The model achieved a high precision of 98% and a recall of 88%, indicating it is able to accurately classify most non-diabetic patients.
-	•	Category 1 (Diabetic patients): The precision is low (37%), which suggests that the model might misclassify a number of diabetic patients. However, it has a good recall of 79%, meaning it can identify most diabetic patients.
